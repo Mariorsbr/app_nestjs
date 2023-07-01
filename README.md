@@ -75,20 +75,12 @@ Nest is [MIT licensed](LICENSE).
 ## Steps to create
 ```bash
 $ npm install -g @nestjs/cli
-
 $ nest new appjs
-
 $ nest generate module user
-
 $ nest generate controller user
-
 $ nest generate service user
-
 $ npm i prisma
-
 $ npx prisma init
-
 $ npx prisma migrate dev --name first_migration
-
 $ npm i @prisma/client
 ```
